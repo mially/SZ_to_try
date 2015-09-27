@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/zubrik-2.iml" filepath="$PROJECT_DIR$/zubrik-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zubrik.iml" filepath="$PROJECT_DIR$/zubrik.iml" />
     </modules>
   </component>
 </project>

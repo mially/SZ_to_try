@@ -44,7 +44,7 @@ public class RegisterServlet extends HttpServlet {
             HttpSession session = req.getSession();
             session.setAttribute("username", username);
 
-  //        userService.createUser(username, password);
+            userService.createUser(username, password);
             req.getRequestDispatcher("index.jsp").forward(req, resp);
 
         } else {

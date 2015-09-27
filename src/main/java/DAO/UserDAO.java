@@ -6,9 +6,9 @@ import java.sql.*;
 
 public class UserDAO {
 
-    String dbURL = "jdbc:mysql://localhost:3306/zubrikdb";
+    String dbURL = "jdbc:mysql://localhost:3306/sampledb";
     String username = "root";
-    String password = "";
+    String password = " newpwd ";
     Connection conn = null;
 
     public void connect(){
@@ -46,22 +46,22 @@ public class UserDAO {
     }
 
     public User getUser(String username) {
-        String sql = "SELECT * FROM Users WHERE username = " + username;
         User user = new User();
 
         try {
-            Statement statement = conn.createStatement();
-            ResultSet result = statement.executeQuery(sql);
+            PreparedStatement statement = conn.prepareStatement("SELECT * FROM users WHERE username = ?");
+
+            statement.setString(1, username);
+            ResultSet result = statement.executeQuery();
 
             while (result.next()) {
-                user.setId(result.getString(1));
-                user.setUsername(result.getString(2));
-                user.setPassword(result.getString(3));
+                user.setId(result.getString("id"));
+                user.setUsername(result.getString("username"));
+                user.setPassword(result.getString("password"));
             }
         } catch (SQLException e) {
             e.printStackTrace();
         }
         return user;
     }
-
 }

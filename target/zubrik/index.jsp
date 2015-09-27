@@ -19,7 +19,5 @@
             add them to calendar and send reminders automatically.<br/>
             Hopefully you will never be late again!<br/><br/>
         </h4>
-
-
     </body>
 </html>

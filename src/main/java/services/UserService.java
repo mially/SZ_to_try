@@ -19,6 +19,5 @@ public class UserService {
              userdao.connect();
          }
          return userdao.getUser(username);
-
      }
 }
