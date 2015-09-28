@@ -578,7 +578,7 @@
       <created>1443304796949</created>
       <option name="number" value="Default" />
       <updated>1443304796949</updated>
-      <workItem from="1443304801215" duration="5559000" />
+      <workItem from="1443304801215" duration="5583000" />
     </task>
     <task id="LOCAL-00001" summary="changes to make MySQL works!">
       <created>1443364331736</created>
@@ -586,11 +586,17 @@
       <option name="project" value="LOCAL" />
       <updated>1443364331736</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes to make MySQL work!">
+      <created>1443471067293</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1443471067294</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5559000" />
+    <option name="totallyTimeSpent" value="5583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="22" width="1400" height="834" extended-state="0" />
@@ -637,7 +643,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes to make MySQL works!" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes to make MySQL works!" />
+    <MESSAGE value="changes to make MySQL work!" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes to make MySQL work!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
